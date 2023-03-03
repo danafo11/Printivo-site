@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    overflow-x: hidden;
+}
+#container-1 {
+    background-color: #F7F6F4;
+    font-family: "SF Pro", sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 19.35px;
+}
+
+
+#deconone {
+    text-decoration: none;
+    color: #506687;
+}
+.phonenumber {
+    text-decoration: none;
+    color: #1DA1F2;
+    font-weight: 500;
+}
+
+.nigeria{
+    display: flex;
+    width: 10px;
+    /* height: 10px; */
+    border: 1px solid #cbcac8;
+    border-radius: 40px;
+    padding: 10px 12px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+#container-2 {
+    background-color: #ECE8D9;
+    
+    /* position: relative;   */
+}
+
+.nav-item {
+    color: rgb(75, 99, 130);
+    font-family: "SF Pro", sans-serif;
+    line-height: 21.75px;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+#quality {
+    color:#384a62;
+    font-size: 67.2px;
+    line-height: 40px;
+    font-family: "dm serif display";
+    font-weight: 400;
+}
+#shipped {
+    color:#708095;
+    font-family: "SF Pro", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 540;
+}
+.btn {
+    transform: translate(-80px,-7px);
+}
+#hand {
+   transform: translateX(10px);
+}
+label.form-label {
+    font-family: "SF Pro", sans-serif;
+    color:#384a62;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    font-family: "SF Pro", sans-serif;
+    color:rgb(56, 74, 98)
+}
+#start {
+    font-family: "SF Pro", sans-serif;
+    color:rgb(112, 128, 149);
+    font-size: 12.8px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+}
+#text {
+    font-family: "SF Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    color:rgb(56, 74, 98)
+}
+.spanper {
+    font-size: 14.4px;
+    color:rgb(112, 128, 149);
+}
+#button {
+    background-color: #D77F81;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+#button:hover {
+    transform: translateX(5px);
+}
+.transy {
+    transition: translateX .2s;
+}
+.transy:hover {
+    transform: translate(20px, 30px);
+}
+#popu {
+    font-family: "dm serif display";
+    font-size: 30px;
+    font-weight: 400;
+    color:rgb(56, 74, 98);
+}
+#popu2 {
+    font-family: "dm serif display";
+    font-size: 30px;
+    font-weight: 400;
+    color:rgb(56, 74, 98);
+}
+
+.card-img-top {
+    transition: scale .2s;
+}
+.card-img-top:hover {
+    transform: scale(1.02,1.02);
+}
+#print-services {
+    color:rgb(80, 102, 131);
+    font-family: "SF Pro", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    line-height: 28px;
+}
+#customers-say {
+    background-color: #EDF6FD;
+}
+#custy {
+    font-family: "dm serif display";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color:rgb(56, 74, 98);
+}
+#para1 {
+    font-family: "SF Pro", sans-serif;
+    color:rgb(56, 74, 98);
+    font-size: 15.5px;
+    font-weight: 400;
+}
+#amazing-work {
+    background-color: #F7F6F4;
+}
+#amazing{
+    font-family: "SF Pro", sans-serif;
+    color:rgb(56, 74, 98);
+    font-size: 15px;
+    font-weight: 600;
+}
+#newsletter {
+    background-color: #ECE8D9;
+}
+.sub {
+    font-family: "SF Pro", sans-serif;
+    font-weight: 550;
+    color:rgb(56, 74, 98);
+    font-size: 25px;
+}
+#buttona {
+    transform: translate(700px,-87px);
+}
+
+@media screen and (max-width:890px) {
+    #buttona {
+        transform: translate(460px, -85px);
+    }
+    #whatimg {
+        transform: translate(350px, -35px);
+    }
+    #cor {
+        transform: translate(490px, -85px);
+    }
+    #container-2 {
+        transform: translateY(-50px);
+    }
+    #hand {
+        width: 200;
+        height: 150;
+        transform: translate(20px,253px);
+    }
+
+    @media screen and (max-width: 450px){
+        .corp{
+            display: none;
+        }
+        #numb{
+            transform: translate(20px,90px);
+        }
+        #hand {
+            display: none;
+        }
+        #whatimg {
+            transform: translate(140px, -35px);
+        }
+        .pot {
+            width: 130px;
+            display: flex;
+            transform: translate(230px,-80px);
+        }
+        section#container-2.border-2.row {
+            transform: translateY(-70px);
+        }
+        #copycopy {
+            padding: 12px 0px;
+        }
+        button#cor {
+            transform: translate(250px,-80px);
+        }
+        #quality {
+            font-size: 45px;
+        }
+        #searchIcon {
+            transform: translate(-40px, -8px);
+        }
+        #popularproducts {
+            transform: translateY(-70px);
+        }
+        #popu {
+            font-size: 15px;
+            transform: translateY(27px);
+        }
+        #seeall {
+            font-size: 15px;
+        }
+        #phonyup {
+            transform: translateY(-60px);
+        }
+        #phonyup2 {
+            transform: translateY(-60px);
+        }
+        #phony3 {
+            transform: translateY(-150px);
+        }
+        #popu2 {
+            font-size: 25px;
+        }
+        #print-services {
+            font-size: 15px;
+        }
+        #customers-say {
+            transform: translateY(-130px);
+        }
+    }
+
+}
+
+#section-last {
+    background-color: #384A62;
+}
+#ul {
+    list-style: none;
+}
+#ul li a {
+    text-decoration: none;
+    color: white;
+}
+h4.ms-4 {
+    color:rgb(236, 232, 217);
+    font-family: "SF Pro", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    padding:0px 0px 16px;
+}
+ul#ul li a {
+    font-family: "SF Pro", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+
+}
+#copycopy {
+    color:rgb(56, 74, 98);
+    background-color:#cbcac8;
+    padding: 32px 0px;
+    text-align: center;
+}
+.copyright {
+    font-family: "SF Pro", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 100px;
+    padding: 0px 20px;
+}
+#nava {
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+#nava2 {
+    position: sticky !important;
+    top: 0;
+    z-index: 100 !important;
+}
